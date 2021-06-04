@@ -18,6 +18,55 @@ header {
     height: 80px;
     background-color: #3161e0;
 }
+.toph .container {
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.toph .container .col {
+    float: left;
+    height: 80px;
+    line-height: 80px;
+}
+.toph .container .col.side {
+    width: 20%;
+}
+.toph .container .col.center {
+    width: 60%;
+    text-align: center;
+    color: #fff;
+}
+#logo {
+    vertical-align: middle;
+}
+.toph .container .col.center ul {
+    list-style: none;
+}
+.toph .container .col.center ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+.toph .container .col.center ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.toph .container .col.center ul li a:hover {
+    color: #000;
+}
+.toph .container .col.side.log {
+    text-align: right;
+}
+.toph .container .col.side.log a {
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.toph .container .col.side.log a:hover {
+    background-color: #000;
+    color: #fff;
+}
 .bottomh {
     width: 100;
     height: 620px;
