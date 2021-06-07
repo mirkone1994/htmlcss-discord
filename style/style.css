@@ -117,8 +117,9 @@ h1 {
     background-color: #f6f6f6;
 }
 .main.four {
-    height: 1000px;
+    height: 1300px;
     text-align: center;
+    
 }
 .main .container {
     width: 1200px;
@@ -141,6 +142,7 @@ h1 {
 }
 .main .container .col.small h2 {
     font-size: 60px;
+    padding-top: 25px;
 }
 .main .container .col.small p {
     font-size: 25px;
@@ -148,11 +150,12 @@ h1 {
 }
 .main.four .container {
     width: 1200px;
-    height: 1300px;
+    height: 1100px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding-top: ;
 }
 .main.four .container h2 {
     font-size: 50px;
@@ -252,4 +255,11 @@ hr {
 .fsmall .col .button {
     background-color: #8ea1e1;
     color: #fff
+}
+img[alt="wave"] {
+    filter: opacity(0.04);
+    margin-bottom: -4px;
+}
+.upside-down {
+    transform: rotateX(180deg);
 }
