@@ -214,6 +214,7 @@ footer .container .fbig .col.big span {
 footer .container .fbig .col.big span img {
     transform: scale(0.3);
     vertical-align: middle;
+    margin-left: -25px;
 }
 footer .container .fbig .col.big ul {
     list-style: none;
